@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Meth(odology)</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div id = "wrapper">
+
+		<h1><center><span>Crystal Meth(odology)<span></center></h1>
+
+			<div id="instructions">
+				<p>Check out the collection of rare crystals below. Each one is worth a specific amount of points.  Clicking a crystal will add those points to your score.</p>
+				<p> If your total score matches the random number from the beginning of the game, you!  If your score goes above the random number, you lose. Try your hand at this crystallized mystery! </p>
+			</div>
+
+			<div class = "container"><center>
+				<div id="guessThisNumber">
+					<h2> <span class="value"></span></h2>
+				</div>
+
+				<div id="scoreboard">
+					<h3><span id="status"></span></h3>
+					<h3>Wins: <span id="win"></span></h3>
+					<h3>Losses: <span id="loss"></span> </h3>
+				</div>
+			</center></div><br>
+
+			<div id="crystals"></div><br>
+
+			<div id ="totalScore">
+				<h2 id = "ts">Total Score: <span id ="playerScore">0</span></h2>
+
+			</div>
+
+		</div>
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+	</body>
+	</html>
